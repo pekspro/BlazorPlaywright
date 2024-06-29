@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- NUnit adapter -->  
+  <NUnit>
+    <NumberOfTestWorkers>24</NumberOfTestWorkers>
+  </NUnit>
+  <!-- Playwright -->  
+  <Playwright>
+    <BrowserName>webkit</BrowserName>
+    <ExpectTimeout>10000</ExpectTimeout>
+    <LaunchOptions>
+      <Headless>false</Headless>
+    </LaunchOptions>
+  </Playwright>
+</RunSettings>
